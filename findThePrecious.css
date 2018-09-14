@@ -1,0 +1,21 @@
+header {
+    height: 50px;
+}
+.container_carousel{
+    width: 800px;
+    margin:auto;
+  }
+.container_badge{
+    margin-top:20px;
+}
+.sectionphoto h3, h4{
+color: white;
+}
+.sectionphoto h4{
+    width:100px;
+    margin:auto;
+    margin-top:150px;
+}
+.sectionphoto:hover .card-img-top{
+    opacity: 1;
+}
