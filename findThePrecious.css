@@ -1,14 +1,21 @@
+body{
+    width: 1000px;
+    margin:auto;
+  }
 header {
     height: 50px;
 }
-.container_carousel{
-    width: 800px;
-    margin:auto;
-  }
 .container_badge{
     margin-top:20px;
 }
-.sectionphoto h3, h4{
+.sectionphoto h3{
+    border:2px gray solid;
+    border-radius: 3px;
+    background-color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+.sectionphoto h3, .sectionphoto h4{
 color: white;
 }
 .sectionphoto h4{
@@ -17,5 +24,108 @@ color: white;
     margin-top:150px;
 }
 .sectionphoto:hover .card-img-top{
-    opacity: 1;
+    opacity: 0.5;
+}
+.sectionphoto:hover h3{
+    display: none;
+}
+.reward figure{
+    display: inline-block;
+    vertical-align: top;
+}
+.reward p{
+    text-align:justify;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+}
+.btn{
+    float:inline-end;
+}
+media-body{
+    text-align: start;
+}
+.media .btn{
+    float:inline-start;
+    height: 35px;
+}
+.media h4{
+    font-size:20px;
+}
+.media .btn img{
+    height:20px;
+    width:20px;
+}
+.bothmedia{
+    display: flex;
+    justify-content: space-around;
+}
+table td, table th{
+    border:2px black solid;
+    width: 380px;
+    font-size: 18px;
+}
+table caption{
+    caption-side: top;
+    font-size: 25px;
+}
+.card {
+    border: 2px gray solid;
+    margin-top:15px;
+}
+th{
+    background-color: gray;
+}
+td{
+    background-color:rgb(247, 240, 240);  
+}
+.card-body2{
+    display: flex;
+    margin-top:35px;
+    margin-left:10px;
+}
+.card-body2 .text{
+    width:650px;
+}
+.textArmy{
+    margin-left: 20px;
+}
+.textArmy .btn{
+    margin-left: 80px;
+}
+form input,form select,form textarea{
+    width: 600px;
+    margin-bottom: 10px;
+}
+form textarea{
+    height: 200px;
+}
+footer ul{
+    display:inline-block;
+    list-style: none;
+    vertical-align: top;
+    margin-left:50px;
+}
+footer{
+    background-color: rgb(221, 223, 226);
+
+}
+.nav-item{
+    background-color: gray;
+    margin-right:100px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.nav-item a{
+    color: white;
+}
+.sameline{
+    display: flex;
+    padding-top: 20px;
+}
+.sameline h2{
+    margin-right:10px;
+}
+.reward figure{
+    margin-left: 40px;
 }
