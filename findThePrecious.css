@@ -1,9 +1,8 @@
-
 header {
     height: 50px;
 }
-.container_badge{
-    margin-top:20px;
+#Fellows{
+   margin-top: 15px;
 }
 .sectionphoto h3{
     border:2px gray solid;
@@ -25,10 +24,6 @@ color: white;
 }
 .sectionphoto:hover h3{
     display: none;
-}
-.reward figure{
-    display: inline-block;
-    vertical-align: top;
 }
 .reward p{
     text-align:justify;
@@ -53,10 +48,6 @@ media-body{
     height:20px;
     width:20px;
 }
-.bothmedia{
-    display: flex;
-    justify-content: space-around;
-}
 table td, table th{
     border:2px black solid;
     width: 380px;
@@ -76,14 +67,6 @@ th{
 td{
     background-color:rgb(247, 240, 240);  
 }
-.card-body2{
-    display: flex;
-    margin-top:35px;
-    margin-left:10px;
-}
-.card-body2 .text{
-    width:650px;
-}
 .textArmy{
     margin-left: 20px;
 }
@@ -94,9 +77,6 @@ td{
     list-style: none;
     vertical-align: top;
     margin-left:50px;
-}
-#footer ul li{
-    font-
 }
 #footer{
     background-color: rgb(221, 223, 226);
@@ -109,13 +89,6 @@ td{
 }
 .nav-item a{
     color: white;
-}
-.sameline{
-    display: flex;
-    padding-top: 20px;
-}
-.sameline h2{
-    margin-right:10px;
 }
 .reward figure{
     margin-left: 40px;
