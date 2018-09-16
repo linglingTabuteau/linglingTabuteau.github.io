@@ -1,7 +1,4 @@
-body{
-    width: 1000px;
-    margin:auto;
-  }
+
 header {
     height: 50px;
 }
@@ -93,22 +90,16 @@ td{
 .textArmy .btn{
     margin-left: 80px;
 }
-form input,form select,form textarea{
-    width: 600px;
-    margin-bottom: 10px;
-}
-form textarea{
-    height: 200px;
-}
-footer ul{
-    display:inline-block;
+#footer ul{
     list-style: none;
     vertical-align: top;
     margin-left:50px;
 }
-footer{
+#footer ul li{
+    font-
+}
+#footer{
     background-color: rgb(221, 223, 226);
-
 }
 .nav-item{
     background-color: gray;
@@ -128,4 +119,7 @@ footer{
 }
 .reward figure{
     margin-left: 40px;
+}
+.hunters{
+    margin-bottom:15px;
 }
