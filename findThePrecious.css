@@ -1,4 +1,4 @@
-/*police titre*/
+/* police titre */
 @font-face {
     font-family: 'anironcregular';
     src: url('FontAniron/anicm___-webfont.woff2') format('woff2'),
@@ -105,7 +105,7 @@ color: white;
 }
 .money{
     color:orange;
-    font-style: bold;
+    font-weight: bold;
     font-size: 35px;
 }
 .sectionphoto h4{
@@ -130,7 +130,7 @@ color: white;
 }
 .hunters h4{
     font-family: 'anironcregular', Arial, Helvetica, sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     color: orange;
 }
 .hunters p{
@@ -140,10 +140,7 @@ color: white;
 .btn{
     float:inline-end;
 }
-.media .btn{
-    float:inline-start;
-    height: 35px;
-}
+
 .media .btn img{
     height:20px;
     width:20px;
@@ -151,8 +148,8 @@ color: white;
 /*button Contact Us*/
 #Getmyreward a{
     font-size: 30px;
-    font-style: bold;
-    background-color: white;
+    font-weight: bold;
+    background-color:white;
     color:orange;
     float:right;
     height:55px;
@@ -209,10 +206,26 @@ td{
 }
 .textArmy{
     margin-left: 20px;
+    font-family:  'party_businessregular', Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 .textArmy .btn{
     margin-left: 80px;
 }
+.textArmy{
+    width: 800px;
+}
+.media-body h4{
+    color:orange;
+}
+.media .btn{
+    background-color: black;
+    color: orange;
+    font-size: 30px;
+    height: 60px;
+    font-family: 'anironcregular', Arial, Helvetica, sans-serif;
+    float:inline-start;
+    }
 /* formulaire */
 #Contactus{
     background-color: black;
@@ -227,10 +240,17 @@ input,select,textarea{
 textarea{
     height:200px;
 }
-.Weneedyou img{
+.Weneedyou img,.joinModor img{
     height: 260px;
     margin-right: 60px;
 }
+select{
+  width:1000px;
+}
+.sectionFormulaire img{
+    height: 380px;
+}
+/* footer */
 #footer ul{
     list-style: none;
     vertical-align: top;
