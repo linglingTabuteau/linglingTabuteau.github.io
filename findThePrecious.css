@@ -186,9 +186,11 @@ color: white;
     width: 350px;
 }
 table td, table th{
-    border:2px black solid;
     width: 380px;
-    font-size: 18px;
+    font-size: 25px;
+}
+table tr{
+    border:2px black solid;
 }
 table caption{
     caption-side: top;
@@ -196,6 +198,9 @@ table caption{
 }
 .card {
     margin-top:15px;
+}
+.card-body, .card-body2{
+    background-color:silver;
 }
 th{
     background-color: gray;
